@@ -20,7 +20,7 @@ namespace Shopping_Cart
 
         private void BuyProduct(string name, int price, int amount)
         {
-            CartItem reoccurringItem = _cartItems.FirstOrDefault(x => x.Product.Name == name);
+            CartItem reoccurringItem = _cartItems.Find(x => x.GetProductName() == name);
             if (reoccurringItem == null)
                 AddNewProduct(name, price, amount);
             else
