@@ -28,3 +28,18 @@ C:\Users\ThatA\OneDrive\Dokumenter\GitHub\Get-Academy\C# Arbeid\Shopping Cart\ob
 C:\Users\ThatA\OneDrive\Dokumenter\GitHub\Get-Academy\C# Arbeid\Shopping Cart\obj\Debug\net7.0\Shopping Cart.pdb
 C:\Users\ThatA\OneDrive\Dokumenter\GitHub\Get-Academy\C# Arbeid\Shopping Cart\obj\Debug\net7.0\Shopping Cart.genruntimeconfig.cache
 C:\Users\ThatA\OneDrive\Dokumenter\GitHub\Get-Academy\C# Arbeid\Shopping Cart\obj\Debug\net7.0\ref\Shopping Cart.dll
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.csproj.AssemblyReference.cache
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.AssemblyInfoInputs.cache
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.AssemblyInfo.cs
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.csproj.CoreCompileInputs.cache
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.dll
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\refint\Shopping Cart.dll
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.pdb
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\bin\Debug\net7.0\Shopping Cart.exe
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\bin\Debug\net7.0\Shopping Cart.deps.json
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\bin\Debug\net7.0\Shopping Cart.runtimeconfig.json
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\bin\Debug\net7.0\Shopping Cart.dll
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\bin\Debug\net7.0\Shopping Cart.pdb
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\Shopping Cart.genruntimeconfig.cache
+C:\Users\ThatA\OneDrive\Dokumenter\GitHub\ShoppingCart-V2\Shopping Cart\obj\Debug\net7.0\ref\Shopping Cart.dll

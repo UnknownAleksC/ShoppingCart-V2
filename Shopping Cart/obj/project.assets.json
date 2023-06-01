@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ThatA\\OneDrive\\Dokumenter\\GitHub\\Get-Academy\\C# Arbeid\\Shopping Cart\\Shopping Cart.csproj",
+      "projectUniqueName": "C:\\Users\\ThatA\\OneDrive\\Dokumenter\\GitHub\\ShoppingCart-V2\\Shopping Cart\\Shopping Cart.csproj",
       "projectName": "Shopping Cart",
-      "projectPath": "C:\\Users\\ThatA\\OneDrive\\Dokumenter\\GitHub\\Get-Academy\\C# Arbeid\\Shopping Cart\\Shopping Cart.csproj",
+      "projectPath": "C:\\Users\\ThatA\\OneDrive\\Dokumenter\\GitHub\\ShoppingCart-V2\\Shopping Cart\\Shopping Cart.csproj",
       "packagesPath": "C:\\Users\\ThatA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ThatA\\OneDrive\\Dokumenter\\GitHub\\Get-Academy\\C# Arbeid\\Shopping Cart\\obj\\",
+      "outputPath": "C:\\Users\\ThatA\\OneDrive\\Dokumenter\\GitHub\\ShoppingCart-V2\\Shopping Cart\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ThatA\\AppData\\Roaming\\NuGet\\NuGet.Config",

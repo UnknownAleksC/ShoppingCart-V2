@@ -9,24 +9,23 @@ namespace Shopping_Cart
     public class CartItem
     {
         public Product Product;
-        public int Amount;
+        private int _amount;
 
         public CartItem(Product product, int amount)
         {
             Product = product;
-            Amount = amount;
+            _amount = amount;
         }
 
-        public void AddAdditionalProduct(int newItemAmount, int newItemPrice)
+        public void AddAmount(int amount)
         {
-            Product.Price = (Product.Price * Amount + newItemPrice * newItemAmount) / (Amount + newItemAmount);
-            Amount += newItemAmount;
+            _amount += amount;
         }
 
         public double CalculateOrderLinePrice()
         {
-            double orderLinePrice = Product.Price * Amount;
-            Console.WriteLine($"{Amount}stk {Product.Name}, {Product.Price}kr per = {orderLinePrice}kr");
+            double orderLinePrice = Product.Price * _amount;
+            Console.WriteLine($"{_amount}stk {Product.Name}, {Product.Price}kr per = {orderLinePrice}kr");
             return orderLinePrice;
         }
     }

@@ -16,24 +16,7 @@ namespace Shopping_Cart
         {
             _shoppingCart = new ShoppingCart();
             _shoppingCart.CreateCart();
-            ShowCart();
-        }
-
-        private static void ShowCart()
-        {
-            if (_shoppingCart.CartItems.Count == 0)
-                Console.WriteLine("Handlekurven er tom.");
-            else
-            {
-                Console.WriteLine("Handlekurv:");
-                double totalPrice = 0;
-                foreach (CartItem item in _shoppingCart.CartItems)
-                {
-                    totalPrice += item.CalculateOrderLinePrice();
-                }
-
-                Console.WriteLine($"Totalpris: {totalPrice}kr");
-            }
+            _shoppingCart.ShowCart();
         }
     }
 }
