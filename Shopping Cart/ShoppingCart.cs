@@ -48,9 +48,8 @@ namespace Shopping_Cart
                 double totalPrice = 0;
                 foreach (CartItem item in _cartItems)
                 {
-                    totalPrice += item.CalculateOrderLinePrice();
+                    totalPrice += item.GetOrderLinePrice();
                 }
-
                 Console.WriteLine($"Totalpris: {totalPrice}kr");
             }
         }

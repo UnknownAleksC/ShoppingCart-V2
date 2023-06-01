@@ -22,7 +22,7 @@ namespace Shopping_Cart
             _amount += amount;
         }
 
-        public int CalculateOrderLinePrice()
+        public int GetOrderLinePrice()
         {
             return _product.CalculateOrderLinePrice(_amount);
         }
