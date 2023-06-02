@@ -47,6 +47,10 @@ namespace Shopping_Cart
             else
             {
                 Console.WriteLine("Handlekurv:");
+                foreach (CartItem item in _cartItems)
+                {
+                    item.ShowOrderLinePrice();
+                }
                 Console.WriteLine($"Totalpris: {_cartTotalPrice}kr");
             }
         }
