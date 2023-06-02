@@ -17,11 +17,10 @@ namespace Shopping_Cart
             _price = productPrice;
         }
 
-        public int CalculateOrderLinePrice(int amount)
+        public void CalculateOrderLinePrice(int amount)
         {
             var orderLinePrice = _price * amount;
             Console.WriteLine($"{amount}stk {_name}, {_price}kr per = {orderLinePrice}kr");
-            return orderLinePrice;
         }
 
         public string GetName()

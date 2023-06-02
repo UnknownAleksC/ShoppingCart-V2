@@ -9,6 +9,7 @@ namespace Shopping_Cart
     internal class ShoppingCart
     {
         private List<CartItem> _cartItems;
+        private int _cartTotalPrice;
         public void CreateCart()
         {
             _cartItems = new List<CartItem>();
@@ -28,6 +29,7 @@ namespace Shopping_Cart
                 reoccurringItem.AddAmount(amount);
                 Console.WriteLine($"Du kjøpte {amount} flere stk. {name}");
             }
+            _cartTotalPrice += price * amount;
         }
 
         private void AddNewProduct(string name, int price, int amount)
@@ -45,12 +47,7 @@ namespace Shopping_Cart
             else
             {
                 Console.WriteLine("Handlekurv:");
-                double totalPrice = 0;
-                foreach (CartItem item in _cartItems)
-                {
-                    totalPrice += item.GetOrderLinePrice();
-                }
-                Console.WriteLine($"Totalpris: {totalPrice}kr");
+                Console.WriteLine($"Totalpris: {_cartTotalPrice}kr");
             }
         }
     }
