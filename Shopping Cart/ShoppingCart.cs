@@ -9,27 +9,26 @@ namespace Shopping_Cart
     internal class ShoppingCart
     {
         private List<CartItem> _cartItems;
-        private int _cartTotalPrice;
         public void CreateCart()
         {
             _cartItems = new List<CartItem>();
             BuyProduct("Banana", 10, 5);
             BuyProduct("Banana", 10, 5);
-            BuyProduct("Fluespray", 5, 20);
-            BuyProduct("Kremflaske", 15, 10);
+            BuyProduct("Eple", 5, 20);
+            BuyProduct("Appelsin", 15, 10);
         }
 
         private void BuyProduct(string name, int price, int amount)
         {
-            CartItem reoccurringItem = _cartItems.Find(x => x.GetProductName() == name);
-            if (reoccurringItem == null)
+            bool productNameExists = _cartItems.Any(x => x.Product.Name == name);
+            if (!productNameExists)
                 AddNewProduct(name, price, amount);
             else
             {
+                CartItem reoccurringItem = _cartItems.Find(x => x.Product.Name == name);
                 reoccurringItem.AddAmount(amount);
                 Console.WriteLine($"Du kjøpte {amount} flere stk. {name}");
             }
-            _cartTotalPrice += price * amount;
         }
 
         private void AddNewProduct(string name, int price, int amount)
@@ -46,12 +45,13 @@ namespace Shopping_Cart
                 Console.WriteLine("Handlekurven er tom.");
             else
             {
+                int orderLinePrice = 0;
                 Console.WriteLine("Handlekurv:");
                 foreach (CartItem item in _cartItems)
                 {
-                    item.ShowOrderLinePrice();
+                    orderLinePrice += item.ShowOrderLinePrice();
                 }
-                Console.WriteLine($"Totalpris: {_cartTotalPrice}kr");
+                Console.WriteLine($"Totalpris: {orderLinePrice}kr");
             }
         }
     }

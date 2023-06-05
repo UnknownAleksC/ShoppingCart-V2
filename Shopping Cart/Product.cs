@@ -8,24 +8,20 @@ namespace Shopping_Cart
 {
     public class Product
     {
-        private string _name;
+        public string Name;
         private int _price;
 
         public Product(string productName, int productPrice)
         {
-            _name = productName;
+            Name = productName;
             _price = productPrice;
         }
 
-        public void CalculateOrderLinePrice(int amount)
+        public int CalculateOrderLinePrice(int amount)
         {
-            var orderLinePrice = _price * amount;
-            Console.WriteLine($"{amount}stk {_name}, {_price}kr per = {orderLinePrice}kr");
-        }
-
-        public string GetName()
-        {
-            return _name;
+            int orderLinePrice = _price * amount;
+            Console.WriteLine($"{amount}stk {Name}, {_price}kr per = {orderLinePrice}kr");
+            return orderLinePrice;
         }
     }
 }

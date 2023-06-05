@@ -8,12 +8,12 @@ namespace Shopping_Cart
 {
     public class CartItem
     {
-        private Product _product;
+        public Product Product { get; }
         private int _amount;
 
         public CartItem(Product product, int amount)
         {
-            _product = product;
+            Product = product;
             _amount = amount;
         }
 
@@ -22,14 +22,9 @@ namespace Shopping_Cart
             _amount += amount;
         }
 
-        public void ShowOrderLinePrice()
+        public int ShowOrderLinePrice()
         {
-            _product.CalculateOrderLinePrice(_amount);
-        }
-
-        public string GetProductName()
-        {
-            return _product.GetName();
+            return Product.CalculateOrderLinePrice(_amount);
         }
     }
 }
